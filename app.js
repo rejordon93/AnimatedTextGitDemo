@@ -9,6 +9,5 @@ const letters = document.querySelectorAll(".letter");
 const intervalid = setInterval(function () {
   for (const letter of letters) {
     letter.style.color = randomRGB();
-    letter.style.fontSize = "3rem";
   }
 }, 1000);
